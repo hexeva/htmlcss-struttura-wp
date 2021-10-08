@@ -26,7 +26,8 @@
     margin: auto;
     padding: 30px 0;
     /* TEST */
-    height: 1000px;
+    height: 1200px;
+    
   }
 
   /* header */
@@ -53,7 +54,7 @@ main{
   }
 
   .clearfix{
-      margin: 20px 0;
+      padding: 20px 0;
   }
 
   .col.c{
@@ -76,3 +77,11 @@ main{
     height: 500px;
   }
   /* end main */
+
+  /* footer */
+  footer{
+      background-color: #8801fe;
+      height: 50px;
+      margin-top: 5px;
+  }
+  /* end footer */
