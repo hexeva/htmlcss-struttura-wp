@@ -6,6 +6,20 @@
 
 }
 
+/* COMMON */
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col{
+    float: left;
+}
+
+/* END COMMON */
+
 
 .container{
     width: 80%;
@@ -29,12 +43,36 @@
   /* end header */
 
   /* main */
-.main{
+main{
     background-color: #0086ff;
 }
 
   .main-title{
       background-color:#abcfe7;
       height: 60px;
+  }
+
+  .clearfix{
+      margin: 20px 0;
+  }
+
+  .col.c{
+      background-color:#abcfe7;
+      width:48%;
+      height:500px;
+      margin-right: 1%;
+      margin-left: 1%;
+  }
+
+  .col.l{
+      background-color: #abcfe7;
+      width: 25%;
+      height: 500px;
+  }
+
+  .col.r{
+    background-color: #abcfe7;
+    width: 25%;
+    height: 500px;
   }
   /* end main */
